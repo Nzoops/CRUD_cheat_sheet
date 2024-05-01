@@ -40,5 +40,10 @@ The in the views folder, you need to create an erb file: show.html.erb
 <h1> <%= @post.name %>
 
 <p>
-  <a href = <%= "posts_path class" = btn btn-primary%></a>
+  <a href = <%= "posts_path class" = btn btn-primary%>Revenir aux articles</a>
 </p>
+
+```
+## Create forms in rails 
+
+To facilitate the form creation, go to https://guides.rubyonrails.org/form_helpers.html
